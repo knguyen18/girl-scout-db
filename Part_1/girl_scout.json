@@ -1,1 +1,48 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://yourdomain.com/schema-url",
+    "title": "Troop",
+    "description": "A Girl Scout troop within a community",
+    "type": "object",
+    "properties": {
+        "troopNumber" : {
+            "type" : "integer"
+        },
+        "foundingDate" : {
+            "type" : "string",
+            "format" : "date"
+        },
+        "community" : {
+            "type" : "string"
+        },
+        "Scout" : {
+            "title" : "List of Scouts",
+            "description": "A scout within a troop",
+            "type" : "array",
+            "items" : {
+                "type" : "object",
+                "properties" : {
+                    "firstName" : {
+                        "type" : "string"
+                    },
+                    "lastName" : {
+                        "type" : "string"
+                    },
+                    "birthday" : {
+                        "type" : "string",
+                        "format" : "date"
+                    },
+                    "level" : {
+                        "type" : "string",
+                        "enum" : ["K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+                    }
+                },
+                "required" : ["firstName", "lastName", "birthday", "level"]
+            }
+        }
+    },
+  "required" : ["troopNumber", "foundingDate", "community"]
+}
+
+
 
