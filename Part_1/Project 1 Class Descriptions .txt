@@ -1,0 +1,15 @@
+﻿Class Descriptions
+
+
+Troop:
+* A Troop consists of Scouts and their associated Adults, and receives cookies from their Troop Allotments.
+Scout:
+* A Scout is assigned to only one Troop, and they are in charge of selling Scout Allotments they receive from their Troop Allotments
+Cookie Type
+* A Cookie Type represents one of the cookie flavors a Troop receives in their Troop Allotment.
+Adult
+* An Adult is the parent or guardian of at least 1 Scout and may take on volunteer roles associated with their Scouts’ Troop.
+
+
+Payment
+* A Payment documents the money a Scout submits to their Troop from the allotted cookies they have sold.
