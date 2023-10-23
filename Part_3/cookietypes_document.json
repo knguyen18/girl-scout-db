@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6457ffd8fae91042ad83e6ec"
+  },
+  "name": "Thin Mints",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "sugar",
+    "cocoa",
+    "mint oil"
+  ]
+},{
+  "_id": {
+    "$oid": "64580043fae91042ad83e6ed"
+  },
+  "name": "Samoas",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "cocoa",
+    "coconut extract",
+    "sugar",
+    "butter"
+  ]
+},{
+  "_id": {
+    "$oid": "64580053fae91042ad83e6ee"
+  },
+  "name": "Tagalongs",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": [
+    "cocoa",
+    "sugar",
+    "peanut oil",
+    "peanut butter"
+  ]
+},{
+  "_id": {
+    "$oid": "64580063fae91042ad83e6ef"
+  },
+  "name": "Trefoils",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": []
+},{
+  "_id": {
+    "$oid": "64580073fae91042ad83e6f0"
+  },
+  "name": "Toffeetastic",
+  "price": {
+    "$numberDecimal": "6.00"
+  },
+  "ingredients": []
+}]
